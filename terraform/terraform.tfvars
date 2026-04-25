@@ -1,0 +1,6 @@
+aws_region        = "us-east-1"
+instance_type     = "t3.medium"
+instance_name     = "microservices-server"
+key_name          = "microservices-key"
+allowed_ssh_cidrs = ["0.0.0.0/0"]
+allowed_app_cidrs = ["0.0.0.0/0"]
